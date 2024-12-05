@@ -8,6 +8,7 @@ namespace FizzingBuzzer
         {
             Program program = new Program();
             program.FizzBuzz();
+            Console.ReadKey();
         }
 
         public void FizzBuzz()
